@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,14 @@
     <link rel="stylesheet" href="./css/components/header.css">
     <link rel="stylesheet" href="./css/components/hero.css">
     <link rel="stylesheet" href="./css/components/categories.css">
+    <link rel="stylesheet" href="./css/components/product-category.css">
 
     <title>SyntaxeWear - Tênis e Sneakers Online</title>
+    <meta name="description"
+        content="Compre tênis e sneakers online na SyntaxeWear. Encontre os melhores modelos para estilo e conforto.">
+
 </head>
+
 <body>
 
     <header class="header">
@@ -43,31 +49,59 @@
         </nav>
 
     </header>
-    
+
     <main>
         <section class="hero-section">
             <div class="hero-overlay">
-            <div class="hero-content">
-                <span class="hero-subtitle">Krypton One</span>
-                <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
+                <div class="hero-content">
+                    <span class="hero-subtitle">Krypton One</span>
+                    <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
 
-                <div class="hero-buttons">
-                    <a class="btn btn-outline" href="#">Ver modelos</a>
-                    <a class="btn btn-filled" href="#">Comprar</a>
+                    <div class="hero-buttons">
+                        <a class="btn btn-outline" href="#">Ver modelos</a>
+                        <a class="btn btn-filled" href="#">Comprar</a>
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
 
-        <section class="categories-section"></section>
+        <section class="categories-section">
+            <!-- <div class="categories-container"> -->
+            <div class="category-card casual">
+                <a href="#" class="category-link ">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Casual</span>
+                </a>
+            </div>
+            <div class="category-card esporte">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Esporte</span>
+                </a>
+            </div>
+            <div class="category-card moderno">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Moderno</span>
+                </a>
+            </div>
+            <div class="category-card futurista">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Futurista</span>
+                </a>
+            </div>
+            <!-- </div> -->
+        </section>
 
         <section class="featured-products-section"></section>
-    
+
     </main>
 
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>
