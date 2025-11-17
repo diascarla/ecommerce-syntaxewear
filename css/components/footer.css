@@ -9,6 +9,7 @@
     padding: 2.5rem; /* 40px / 16 */
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #4A4A4A; /* Borda para separar do footer-bottom */
 }
 
 .footer-content{
